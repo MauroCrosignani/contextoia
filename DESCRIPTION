@@ -1,0 +1,22 @@
+Package: contextoia
+Title: Resumen Seguro de Datasets para Contexto de IA
+Version: 0.0.0.9000
+Authors@R: 
+    person("Mauro", "Crosignani", , "mcrosignani@hotmail.com", role = c("aut", "cre"))
+Description: Genera resumenes programaticos y prudentes de datasets para dar
+    contexto a sistemas de IA sin exponer ejemplos reales de texto libre,
+    identificadores o etiquetas de entidad cuando eso aumentaria riesgos de
+    divulgacion.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    jsonlite,
+    readxl
+Suggests: 
+    dplyr,
+    testthat (>= 3.0.0),
+    tibble,
+    writexl
+Config/testthat/edition: 3
