@@ -1,3 +1,11 @@
+# contextoia 0.1.4
+
+Version de analisis de granularidad por identificadores.
+
+- Agrega una seccion de granularidad observada cuando el dataset contiene identificadores detectados.
+- Informa cuantos identificadores distintos hay, cuantas filas se observan por identificador y si hay multiples filas por identificador.
+- Sugiere variables candidatas para refinar la granularidad, priorizando categorias, periodos y codigos normativos sin incluir montos ni texto libre.
+
 # contextoia 0.1.3
 
 Version de ajuste para descripciones de codigo en bloques con columnas intermedias.
