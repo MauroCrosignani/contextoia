@@ -1,3 +1,13 @@
+# contextoia 0.1.1
+
+Version de seguridad semantica para datos institucionales.
+
+- Trata identificadores institucionales como `NRO_EMPRESA` y `NRO_CONTRIBUYENTE_*` como identificadores, evitando listar valores frecuentes.
+- Evita clasificar como identificadores medidas o estados que contienen la palabra `CONTRIBUYENTE`, como deuda o juicio.
+- Restringe la deteccion de telefonos a columnas con senal de telefono para no confundir codigos numericos largos.
+- Reconoce periodos `YYYYMM` en columnas de periodo y los describe sin convertirlos en categorias.
+- Describe columnas completamente faltantes como sin valores observados, conservando el tipo importado.
+
 # contextoia 0.1.0
 
 Primera version instalable desde GitHub.
