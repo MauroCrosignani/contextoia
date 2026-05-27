@@ -1,3 +1,10 @@
+# contextoia 0.1.7
+
+Version de ajuste semantico para periodos y denominaciones.
+
+- Redacta la senal de periodos como periodo observado asociado a registros, evitando sugerir automaticamente una serie temporal.
+- Trata `DENOMINACION` y nombres equivalentes como etiquetas de entidad aunque el texto sea extenso, sin listar valores reales.
+
 # contextoia 0.1.6
 
 Version de granularidad por persona, documento y solicitud.
