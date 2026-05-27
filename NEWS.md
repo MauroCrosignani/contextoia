@@ -1,3 +1,10 @@
+# contextoia 0.1.8
+
+Version de clasificacion explicita para domicilios.
+
+- Marca columnas de domicilio, direccion, calle, puerta, apartamento o barrio como cuasi-identificadores cuando se detectan por nombre.
+- Mantiene la censura de valores reales para texto domiciliario.
+
 # contextoia 0.1.7
 
 Version de ajuste semantico para periodos y denominaciones.
