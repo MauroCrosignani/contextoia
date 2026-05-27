@@ -1,3 +1,11 @@
+# contextoia 0.1.9
+
+Version de normalizacion y sensibilidad para datos de contacto.
+
+- Normaliza nombres de columnas con tildes, espacios, guiones y mayusculas para aplicar las mismas reglas semanticas.
+- Marca correos, e-mails, mails, contactos, telefonos y celulares como sensibles cuando se detectan por nombre.
+- Mantiene la censura de valores reales de contacto.
+
 # contextoia 0.1.8
 
 Version de clasificacion explicita para domicilios.
