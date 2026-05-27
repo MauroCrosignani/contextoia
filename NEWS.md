@@ -1,3 +1,12 @@
+# contextoia 0.1.6
+
+Version de granularidad por persona, documento y solicitud.
+
+- Reconoce identificadores personales como `PERS_ID` y `PERS_IDENTIFICADOR`.
+- Reconoce el compuesto `TD` + `PAIS` + `DOCUMENTO` como documento personal sin convertir necesariamente `TD` y `PAIS` en identificadores individuales.
+- Evalua claves candidatas como empresa + aportacion + persona y solicitud + persona.
+- Trata denominaciones y razones sociales como etiquetas de entidad para evitar listar nombres reales de empresas o personas.
+
 # contextoia 0.1.5
 
 Version de granularidad institucional compuesta.
