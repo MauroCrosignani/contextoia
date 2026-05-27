@@ -1,3 +1,12 @@
+# contextoia 0.1.5
+
+Version de granularidad institucional compuesta.
+
+- Agrupa identificadores equivalentes de empresa y contribuyente cuando hay representaciones internas y externas de la misma entidad.
+- Evalua claves compuestas candidatas como empresa + contribuyente + aportacion + periodo.
+- Informa senales temporales cuando un periodo `YYYYMM` parece explicar multiples filas por entidad/aportacion.
+- Separa identificadores casi unicos, como titulos o documentos, de la granularidad analitica principal.
+
 # contextoia 0.1.4
 
 Version de analisis de granularidad por identificadores.
